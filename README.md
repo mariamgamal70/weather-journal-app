@@ -13,6 +13,6 @@
 </ul>
 
 <p>Note: I adjusted the css of the project</p>
-![image](https://user-images.githubusercontent.com/103899610/206683805-f0432053-e9bc-4af2-a58f-5c0181f11254.png)
+<img src="https://user-images.githubusercontent.com/103899610/206684293-f4800b3b-12cb-498b-be0a-61396d5d0d85.png">
 
 
