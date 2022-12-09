@@ -4,7 +4,6 @@ const date =document.getElementById('date');
 const temperature=document.getElementById('temp');
 const content=document.getElementById('content');
 const entryHolder=document.getElementById('entryHolder');
-//const error =document.getElementById('error');
 const img=document.querySelector('img');
 
 const zip=document.getElementById('zip');
@@ -16,31 +15,6 @@ const apiKey = '&appid=d6fc266f16cfefc30289c92ad2314d94&units=imperial';
 // Create a new date instance dynamically with JS
 let d = new Date();
 let newDate = d.getMonth() + 1 + "." + d.getDate() + "." + d.getFullYear(); //increment month by 1  as it is zero indexed
-//post req
-/*async function addEntry()
-//fetch req
-async function getDataFromAPI(url='',data={}){
-    const postRequest=fetch(url,{
-        method:'POST',
-        headers:{
-            'Content-Type':'application/JSON'
-        },
-        body:JSON.stringify(data)
-    })
-    try{
-        
-    }
-    catch (error) {
-        console.log('Error', error);
-    }
-}
-const res= await fetch('http://localhost:5500/all')
-try{
-    
-}
-catch{
-    
-}*/
 async function getData(madeURL){
     //FETCH TO GET
     const result= await fetch(madeURL); 
